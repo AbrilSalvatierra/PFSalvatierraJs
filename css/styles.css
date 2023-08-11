@@ -1,0 +1,204 @@
+body {
+	font-family: 'Bricolage Grotesque', sans-serif;
+	color: #3D3631;
+	margin: 0;
+	padding: 0;
+	background-image: url(../img/background-gato.png);
+	background-size: contain;
+	background-attachment:fixed;
+}
+
+header {
+	background-color:#311616;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1em;
+}
+
+.logo{
+	display: block;
+    margin: auto;
+    width: 37%;
+}
+
+main {
+	max-width: 1100px;
+	margin: 4em auto;
+}
+
+/* Disposicion de los productos */
+.product-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+	grid-auto-rows: 550px;
+	grid-gap: 1em;
+	text-align: center;
+}
+
+.product-list li {
+	border: 3px solid #FFD599;
+	padding: 1em;
+	background-color: hsl(35, 100%, 80%, .9);
+	border-radius: 10px;
+}
+
+.product-list img {
+	max-width: 100%;
+	height: 60%;
+	border-radius: 10px;
+}
+
+.product-list h3 {
+	margin-top: 0.5 em;
+	margin-bottom: 0;
+}
+
+.product-list .product-price {
+	font-weight: bold;
+}
+
+.add-to-cart,
+.remove,
+.button {
+	display: block;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #311616;
+	color: #fff;
+	padding: 1rem 0.8rem;
+	text-decoration: none;
+	transition: background-color 0.2s ease;
+}
+.remove {
+	margin-top: 0;
+	margin-bottom: auto;
+	margin-right: 0;
+}
+
+.add-to-cart:hover,
+.remove:hover,
+.button:hover {
+	background-color: #666;
+}
+
+footer {
+	border-top: 1px solid #595959;
+	background-color: hsl(35, 100%, 80%, .5);
+}
+
+footer p {
+	text-align: center;
+}
+
+.overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color:#595959;
+}
+
+.productsCart li {
+	border-bottom: 1px solid #A69B8F;
+	padding: 1rem;
+	display: flex;
+	list-style: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.productContent {
+	padding-left: 1rem;
+}
+
+.productsCart img {
+	display: block;
+	width: 140px;
+	height: auto;
+	object-fit: contain;
+}
+
+.empty {
+	font-size: 2rem;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.counter {
+	width: 120px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.counter .button {
+	width: 30px;
+}
+
+.button {
+	padding: 0.5rem;
+}
+
+.title{
+	text-align: center;
+	margin-top: 25px;
+	font-size: 30px;
+	text-decoration: wavy underline #e4782b;
+}
+
+/* Estilos para el botón "Vaciar Carrito" */
+#vaciarCarrito {
+    background-color: #311616; 
+    color: #ffe9e9;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+
+#vaciarCarrito:hover {
+    background-color: #ff3333; 
+}
+
+/* Estilos para el botón "Realizar Compra" */
+#realizarCompra {
+    background-color: #311616; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px;
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+
+#realizarCompra:hover {
+    background-color: #12883f;
+}
+
+.botones-carrito{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.footer-content {
+	display: flex;
+    margin: auto;
+	justify-content: space-evenly;
+	height: 90px;
+    padding: 10px;
+}
+
+.footer-content .redes-sociales{
+	display: flex;
+	margin: auto;
+	justify-content: space-between;
+	list-style: none;
+}

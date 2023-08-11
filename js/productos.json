@@ -1,0 +1,65 @@
+[
+	{
+		"id": "1",
+		"nombre": "Brochetas de pollo y verduras",
+		"imagen": "./img/products/brochetas.png",
+		"precio": 3500,
+		"descripcion": "Brochetas de pollo con verduras varias"
+	},
+	{
+		"id": "2",
+		"nombre": "Espaguetis italianos",
+		"imagen": "./img/products/espaguetis-italianos.jpg",
+		"precio": 4350,
+		"descripcion": "Fetuccini al dente con salsa bolognesa"
+	},
+	{
+		"id": "3",
+		"nombre": "Bife de carne",
+		"imagen": "../img/products/bife-de-carne.jpg",
+		"precio": 4700,
+		"descripcion": "Bife de carne a la parrilla con guarnición, punto de cocción a elección"
+	},
+	{
+		"id": "4",
+		"nombre": "Hamburguesa con papas",		
+		"imagen": "../img/products/hamburguesa-con-papas.png",
+		"precio": 3500,
+		"descripcion": "Hamburguesa de carne con pan de papa y cheddar, guarnicion de papas"
+	},
+	{
+		"id": "5",
+		"nombre": "Milanesa napolitana con papas",
+		"imagen": "../img/products/milanesa-napolitana.png",
+		"precio": 4760,
+		"descripcion": "Milanesa de pollo napolitana con papas y ensalada"
+	},
+	{
+		"id": "6",
+		"nombre": "Pizza con salami y champiñones",		
+		"imagen": "../img/products/pizza.jpg",
+		"precio": 5200,
+		"descripcion": "Pizza a la piedra de salami y champiñones"
+	},
+	{
+		"id": "7",
+		"nombre": "Ensalada Vegana",		
+		"imagen": "../img/products/ensalada-vegetariana.png",
+		"precio": 4130,
+		"descripcion": "Ensalada vegana con brocoli, champinones, espinacas y quinua"
+	},
+	{
+		"id": "8",
+		"nombre": "Surtido de tartas",
+		"imagen": "../img/products/surtido-de-tartas.png",
+		"precio": 4890,
+		"descripcion": "6 piezas de tarta a eleccion"
+	},
+	{
+		"id": "9",
+		"nombre": "Shawarma de carne",
+		"imagen": "../img/products/shawarma.png",
+		"precio": 2800,
+		"descripcion": "Shawarma de carne con papas fritas"
+	}
+]
