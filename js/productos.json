@@ -58,7 +58,7 @@
 	{
 		"id": "9",
 		"nombre": "Shawarma de carne",
-		"imagen": "./img/products/shawarma.png",
+		"imagen": "./img/products/shawara.png",
 		"precio": 2800,
 		"descripcion": "Shawarma de carne con papas fritas"
 	}
